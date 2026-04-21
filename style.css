@@ -1,0 +1,52 @@
+.bg-container{
+    background-color: blue;
+    color: white;
+    height: 100vh;
+}
+.imge-dimensions{
+    height: 70px;
+    width: 70px;
+}
+.box{
+    color: blue;
+    padding : 20px;
+    text-align: center;
+    background-color: white;
+    border-radius : 10px;
+    height: 150px;
+    width: 200px;
+    cursor:pointer;
+}
+
+.technologyPage{
+    background-color: blue;
+    color: white;
+    
+}
+button{
+    color:white;
+    border:2px solid white;
+    background-color: blue;
+}
+.allInOne{
+    background-color: rgb(6, 6, 249);
+    color: white; 
+    height: 100vh;
+}
+
+
+
+#technologyPage,
+#science,
+#business,
+#healthcarePage {
+    display: none;
+}
+
+.carousel-img {
+    width: 100%;
+    max-width: 400px;   /* controls size */
+    height: 250px;      /* fixed height */
+    object-fit: cover;  /* prevents stretching */
+    margin: auto;
+}
